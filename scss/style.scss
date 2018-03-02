@@ -1,4 +1,8 @@
-@import "componants/reset";
 @import "componants/variables";
+@import "componants/reset";
+@import "componants/global";
 @import "componants/typography";
-@import "componants/main";
+
+// Page specifics
+
+@import "componants/home";

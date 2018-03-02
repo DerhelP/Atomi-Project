@@ -1,0 +1,22 @@
+body {
+    background-color: $body-color;
+    display: flex;
+}
+
+#sidebar {
+    width: 320px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact, #info-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 225px;
+}
+
+#contact{
+    background-color: $light-grey;
+}

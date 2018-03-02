@@ -1,5 +1,4 @@
 /* Normalize */
-/* line 3, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 div, fieldset, form, article, aside, section, menu, nav, ul {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@ div, fieldset, form, article, aside, section, menu, nav, ul {
   font: inherit;
   vertical-align: baseline; }
 
-/* line 11, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,20 +24,16 @@ time, mark, audio, video, input, textarea, img {
   font: inherit;
   vertical-align: baseline; }
 
-/* line 30, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 html {
   font-size: 0px; }
 
-/* line 31, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 body {
   overflow: hidden;
   min-height: 100vh; }
 
-/* line 32, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 img {
   max-width: 100%; }
 
-/* line 34, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 div, section, article {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -48,43 +42,34 @@ div, section, article {
   position: relative; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 43, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 47, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 50, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 53, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 56, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 62, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 63, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 p, a, h1, h2, h3, h4, h5, span, li {
   text-decoration: none; }
 
-/* line 67, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 ul li {
   text-decoration: none; }
 
-/* line 71, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -101,15 +86,12 @@ A couple of things to watch out for:
 - IE: You don't need to fake inline-block with labels and form controls in IE. They function as inline-block.
 - By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
 ----------------------------------------------------------------------------------------------------*/
-/* line 89, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 input::-webkit-calendar-picker-indicator {
   display: none; }
 
-/* line 93, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 input[type="date"]::-webkit-input-placeholder {
   visibility: hidden !important; }
 
-/* line 97, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 a,
 input,
 label,
@@ -131,7 +113,6 @@ textarea {
   font-family: Arial; }
 
 /* Remove the stupid outer glow in Webkit */
-/* line 121, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 a.btn,
 input:focus,
 select:focus {
@@ -140,7 +121,6 @@ select:focus {
 /* Box Sizing Reset
 -----------------------------------------------*/
 /* All of our custom controls should be what we expect them to be */
-/* line 131, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 a.btn,
 input,
 textarea {
@@ -149,7 +129,6 @@ textarea {
   box-sizing: border-box; }
 
 /* These elements are usually rendered a certain way by the browser */
-/* line 141, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 button,
 input[type=reset],
 input[type=button],
@@ -164,7 +143,6 @@ select {
 -----------------------------------------------*/
 /* Button Controls
 -----------------------------------------------*/
-/* line 176, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 input[type=checkbox],
 input[type=radio] {
   width: 13px;
@@ -175,19 +153,16 @@ input[type=radio] {
 /* Search Input
 -----------------------------------------------*/
 /* Make webkit render the search input like a normal text field */
-/* line 195, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 input[type=search] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box; }
 
 /* Turn off the recent search for webkit. It adds about 15px padding on the left */
-/* line 202, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 ::-webkit-search-decoration {
   display: none; }
 
 /* Buttons
 -----------------------------------------------*/
-/* line 209, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 a.btn,
 button,
 input[type="reset"],
@@ -198,7 +173,6 @@ input[type="submit"] {
   width: auto; }
 
 /* IE8 and FF freak out if this rule is within another selector */
-/* line 221, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 ::-webkit-file-upload-button {
   padding: 0;
   border: 0;
@@ -206,7 +180,6 @@ input[type="submit"] {
 
 /* Textarea
 -----------------------------------------------*/
-/* line 231, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 textarea {
   /* Move the label to the top */
   vertical-align: top;
@@ -215,12 +188,29 @@ textarea {
 
 /* Selects
 -----------------------------------------------*/
-/* line 248, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_reset.scss */
 select[multiple] {
   /* Move the label to the top */
   vertical-align: top; }
 
-/* line 1, /Users/sam/Documents/Github/Atomi-Project/scss/componants/_typography.scss */
+body {
+  background-color: #1E1E1E;
+  display: flex; }
+
+#sidebar {
+  width: 320px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row; }
+
+#contact, #info-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 225px; }
+
+#contact {
+  background-color: #e5e5e5; }
+
 .h1 {
   font-family: Montserrat;
   font-size: 100px;
