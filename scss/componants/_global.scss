@@ -1,10 +1,15 @@
 body {
     background-color: $body-color;
     display: flex;
+    width: 100%;
+}
+
+#page{
+    width: calc(100% - #{$sidebar-width});
 }
 
 #sidebar {
-    width: 320px;
+    width: $sidebar-width;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -19,4 +24,14 @@ body {
 
 #contact{
     background-color: $light-grey;
+}
+
+.bkg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    &+*{
+        z-index: 1;
+        position: relative;
+    }
 }

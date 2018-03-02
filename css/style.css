@@ -194,7 +194,11 @@ select[multiple] {
 
 body {
   background-color: #1E1E1E;
-  display: flex; }
+  display: flex;
+  width: 100%; }
+
+#page {
+  width: calc(100% - 320px); }
 
 #sidebar {
   width: 320px;
@@ -211,6 +215,14 @@ body {
 #contact {
   background-color: #e5e5e5; }
 
+.bkg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0; }
+  .bkg + * {
+    z-index: 1;
+    position: relative; }
+
 .h1 {
   font-family: Montserrat;
   font-size: 100px;
@@ -220,6 +232,21 @@ body {
   line-height: 0.96;
   letter-spacing: 2.9px;
   text-align: left;
+  text-transform: uppercase;
   color: #ffffff; }
+
+#hero {
+  height: calc(100% - 225px);
+  background-color: #3e3e3e; }
+  #hero .bkg {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 50%; }
+  #hero .info {
+    position: absolute;
+    bottom: 80px;
+    left: 20px; }
 
 /*# sourceMappingURL=style.css.map */
